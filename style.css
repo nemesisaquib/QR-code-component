@@ -43,7 +43,7 @@ body{
     background-color: var(--White);
     -webkit-box-shadow: -11px 10px 22px 3px rgba(0,0,0,0.4);
 -moz-box-shadow: -11px 10px 22px 3px rgba(0,0,0,0.4);
-box-shadow: -11px 10px 22px 3px rgba(90, 90, 90, 0.164);
+box-shadow: -11px 10px 22px 3px rgba(90, 90, 90, 0.20);
 }
 
 
@@ -57,11 +57,23 @@ box-shadow: -11px 10px 22px 3px rgba(90, 90, 90, 0.164);
     text-transform: capitalize;
 }
 
-h2{
+h1{
     color: var(--Dark);
     padding-bottom: 25px;
+    font-size:1.5rem;
 }
 
 p{
     color: var(--Grayis)
+}
+
+.code-by{
+    
+    margin: 20px auto;
+}
+
+.code-by a{
+    text-decoration: none;
+    color: var(--Dark);
+    font-weight: 700;
 }
